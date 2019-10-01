@@ -5,6 +5,8 @@ import java.util.*
 class User(var name: String = "hello") {
     var id: String = UUID.randomUUID().toString()
 
+    var test = 1234L
+
     constructor(a1: Int, a2: Int, a3: Int = 4): this(a1.toString())
 
     var foo: String = "foo"
